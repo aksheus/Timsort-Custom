@@ -10,6 +10,10 @@ int_timsort(myArray,arrayLength)
 
 Benchmark:
 > python input_gen.py
+
 > gcc interface.c -o interface
+
 > interface < path to input.txt >
+
+
 sorts one million integers in 0.163 seconds (cpu time)
