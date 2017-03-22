@@ -5,8 +5,10 @@ Requirements:
 sorts only integers 
 
 Usage:
-#include "timsort.h"
-int_timsort(myArray,arrayLength)
+> #include "timsort.h"
+
+> int_timsort(myArray,arrayLength)
+
 
 Benchmark:
 > python input_gen.py
